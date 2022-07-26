@@ -1,0 +1,16 @@
+{
+  "name": "theme",
+  "version": "1.0.0",
+  "description": "The \"_s\" for Timber with Tailwind CSS setup: a dead-simple theme that you can build from. The primary purpose of this theme is to provide a file structure rather than a framework for markup or styles.",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./static/tailwind.css -o ./style.css --watch",
+    "build": "tailwindcss -i ./static/tailwind.css -o ./style.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.6"
+  }
+}

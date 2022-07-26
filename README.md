@@ -1,7 +1,7 @@
 
-# The Timber Starter Theme
+# The Timber Starter Theme with Tailwind CSS
 
-The "_s" for Timber: a dead-simple theme that you can build from. The primary purpose of this theme is to provide a file structure rather than a framework for markup or styles. Configure your Sass, scripts, and task runners however you would like!
+The "_s" for Timber with Tailwind CSS setup: a dead-simple theme that you can build from. The primary purpose of this theme is to provide a file structure rather than a framework for markup or styles.
 
 [![Build Status](https://travis-ci.com/timber/starter-theme.svg?branch=master)](https://travis-ci.com/github/timber/starter-theme)
 
@@ -9,11 +9,19 @@ The "_s" for Timber: a dead-simple theme that you can build from. The primary pu
 
 Install this theme as you would any other, and be sure the Timber plugin is activated. But hey, let's break it down into some bullets:
 
-1. Make sure you have installed the plugin for the [Timber Library](https://wordpress.org/plugins/timber-library/) (and Advanced Custom Fields - they [play quite nicely](https://timber.github.io/docs/guides/acf-cookbook/#nav) together). 
-2. Download the zip for this theme (or clone it) and move it to `wp-content/themes` in your WordPress installation. 
+1. Make sure you have installed the plugin for the [Timber Library](https://wordpress.org/plugins/timber-library/) (and Advanced Custom Fields - they [play quite nicely](https://timber.github.io/docs/guides/acf-cookbook/#nav) together).
+2. Download the zip for this theme (or clone it) and move it to `wp-content/themes` in your WordPress installation.
 3. Rename the folder to something that makes sense for your website (generally no spaces and all lowercase). You could keep the name `timber-starter-theme` but the point of a starter theme is to make it your own!
 4. Activate the theme in Appearance >  Themes.
 5. Do your thing! And read [the docs](https://timber.github.io/docs/).
+
+## Tailwind CSS Setup
+
+This repo is configured to watch the .twig files in temlates folder. To start coding you need:
+
+1. Run `npm install` to download all files needed.
+2. Run `npm run dev` to build style.css and watch changes.
+3. Start coding!
 
 ## What's here?
 

@@ -3,3 +3,7 @@
  * Description: Starter Theme to use with Timber with Tailwind CSS setup
  * Author: Upstatement and YOU!
 */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
